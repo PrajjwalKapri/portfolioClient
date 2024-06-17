@@ -25,7 +25,7 @@ const MyApps = () => {
           apps.map((element) => {
             return (
               <Card
-                className="h-fit p-7 flex flex-col justify-center items-center gap-3"
+                className="h-fit p-7 skill-image flex flex-col justify-center items-center gap-3"
                 key={element._id}
               >
                 <img
